@@ -3,10 +3,9 @@ import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
 import torch.optim as optim
-import torchvision
 from torchvision.transforms import transforms
 from torch.utils.data import DataLoader, Dataset
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import os
 from PIL import Image
