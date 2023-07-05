@@ -2,11 +2,9 @@ import tkinter as tk
 from tkinter import filedialog
 import cv2
 import torch
-from torch.utils.data import DataLoader, Dataset
 import torchvision.transforms as transforms
 from PIL import Image
 import torch.nn as nn
-import torch.optim as optim
 
 
 class CNN(nn.Module):
